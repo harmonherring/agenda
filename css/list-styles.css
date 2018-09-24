@@ -1,0 +1,46 @@
+body {
+  background-color:#69C6E0;
+  color:white;
+}
+
+.bg-light {
+  background:#60B4CC !important;
+  box-shadow: 0 4px 7px -2px #666;
+}
+
+.gradient-text {
+  background:-webkit-linear-gradient(white, white, #c0c0c0);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.navbar-brand {
+  font-weight:600;
+  font-size:25px;
+}
+
+.container h1 {
+  text-align:center;
+  margin:15px;
+}
+
+table tr .hidden-button {
+  margin-left:10px;
+  width:30px;
+  height:30px;
+  opacity:0;
+  transition:all .2s;
+  text-align:center;
+}
+
+tr:hover .hidden-button {
+  opacity:1;
+}
+
+form {
+  margin: 0 auto !important;
+}
+
+.btn-success {
+  width:100%;
+}

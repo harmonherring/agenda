@@ -1,0 +1,10 @@
+.box {
+  height:100px;
+  width:100px;
+  background:purple;
+  margin:50px;
+}
+
+#box1:hover #box2{
+  background:black;
+}

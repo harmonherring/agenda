@@ -1,0 +1,164 @@
+body {
+  background-color:#69C6E0;
+  color:white;
+}
+
+.bg-light {
+  background:#60B4CC !important;
+  box-shadow: 0 4px 7px -2px #666;
+}
+
+.login-area {
+  margin-top:100px;
+}
+
+form button {
+  margin-top:15px;
+  width:85%;
+}
+
+.button-container {
+  display:flex;
+  justify-content: center;
+}
+
+#username {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#password {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top:none !important;
+}
+
+#pass-icon {
+  border-top-left-radius: 0;
+}
+
+#user-icon {
+  border-bottom-left-radius: 0;
+}
+
+#email {
+  border-top:none;
+}
+
+.container .col-md-4 .login-area form input {
+  background:#69C6E0;
+  color:white;
+  border:1px solid white;
+  padding:10px;
+  transition:all 0.15s;
+  border-radius:0;
+}
+
+::placeholder {
+  color:white !important;
+}
+
+input:active,
+input:focus {
+  outline:none !important;
+  box-shadow:none !important;
+  background: #a2d5e5 !important;
+}
+
+#firstname {
+  background:#69C6E0;
+}
+
+#firstname:focus,
+#firstname:active {
+  background:#a2d5e5:
+}
+
+.container .col-md-4 .login-area form .btn {
+  border-radius:0;
+  color:#60B4CC;
+  font-weight:600;
+  background:white;
+  border:white;
+  padding:10px;
+  transition:all .15s;
+}
+
+.container .col-md-4 .login-area form .btn:hover {
+  background:#F5F5F5;
+  border:#F5F5F5;
+}
+
+.container .col-md-4 .login-area form .btn:focus,
+.container .col-md-4 .login-area form .btn:active {
+  outline:none;
+  box-shadow:none;
+}
+
+.front-link {
+  text-decoration: underline;
+  color:white;
+}
+
+.front-link:hover {
+  color:#f0f0f0;
+}
+
+.links-section {
+  text-align:center;
+  margin-top:15px;
+}
+
+.circle-logo {
+  width:115px;
+  height:115px;
+  text-align:center;
+  border-radius:100%;
+  border:3px solid white;
+  margin:20px auto;
+}
+
+.circle-logo .gradient-text {
+  text-align:center;
+  line-height:110px;
+}
+
+.gradient-text {
+  background:-webkit-linear-gradient(white, white, #c0c0c0);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.navbar-brand {
+  font-weight:600;
+  font-size:25px;
+}
+
+.col {
+  margin:0 !important;
+  padding:0 !important;
+}
+
+#firstname {
+  border-right:none;
+  border-top-left-radius: 4px;
+}
+
+#lastname {
+  border-top-right-radius: 4px;
+}
+
+#username {
+  border-top:none;
+  border-bottom:none;
+}
+
+#password {
+  border-top:none;
+}
+
+#confirm-password {
+  border-top:none;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
